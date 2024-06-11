@@ -1,0 +1,32 @@
+.tree-container {
+  width: 500px;
+  margin: 50px auto;
+}
+.ml-20 {
+  margin-left: 46px;
+}
+.tree-item {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+.icon-wrapper {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon:hover {
+  background-color: #ccc;
+}
+.icon.active {
+  transform: rotate(90deg);
+}
+input[type="check-box"] {
+  width: 40px;
+}

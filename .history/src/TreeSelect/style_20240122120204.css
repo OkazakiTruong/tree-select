@@ -1,0 +1,10 @@
+.tree-container {
+  width: fit-content;
+  margin: 50px auto;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+span.active {
+  transform: rotate(40deg);
+}

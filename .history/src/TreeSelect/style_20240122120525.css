@@ -1,0 +1,13 @@
+.tree-container {
+  width: fit-content;
+  margin: 50px auto;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+i {
+  transition: 0.4s ease-in;
+}
+i.active {
+  transform: rotate(90deg);
+}

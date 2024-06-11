@@ -1,0 +1,65 @@
+.tree-container {
+  width: 500px;
+  margin: 50px auto;
+}
+.ml-20 {
+  margin-left: 46px;
+}
+.tree-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.icon {
+  font-size: 14px;
+  transition: 0.2s ease-in;
+}
+.icon-wrapper {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.icon-wrapper:hover {
+  background-color: #ececec;
+}
+.icon.active {
+  transform: rotate(90deg);
+}
+input[type="checkbox"] {
+  display: none;
+}
+.checkbox-custom {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 1px solid #a6a6a6;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.icon-checked {
+  width: 100%;
+  height: 100%;
+  background-color: #6363ff;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-checked i {
+  font-size: 13px;
+}
+.children {
+  height: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: all 0.5s;
+  transition: 0.2s linear;
+}
+.children.show {
+  transform: scaleY(1);
+}
